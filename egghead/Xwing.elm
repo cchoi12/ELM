@@ -22,7 +22,7 @@ renderShip ship =
     li []
         [ text ship.name
         , text ", "
-        , b []
+        , b [ style [ ( "font-size", "20px" ) ] ]
             [ text <| toString ship.cost ]
         ]
 
