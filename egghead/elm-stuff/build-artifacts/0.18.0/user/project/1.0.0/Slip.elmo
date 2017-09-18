@@ -1,0 +1,15 @@
+var _user$project$Slip$foo = {
+	ctor: '::',
+	_0: 'one',
+	_1: {
+		ctor: '::',
+		_0: 'two',
+		_1: {
+			ctor: '::',
+			_0: 'three',
+			_1: {ctor: '[]'}
+		}
+	}
+};
+var _user$project$Slip$slip = _elm_lang$html$Html$text(
+	_elm_lang$core$Basics$toString(_user$project$Slip$foo));
